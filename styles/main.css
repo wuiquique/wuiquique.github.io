@@ -55,12 +55,13 @@ ul li:hover a {
 }
 
 .first-row {
-  margin-top: 220px;
+  margin-top: 120px;
   margin-bottom: 200px;
   display: flex;
 }
 
 .intro {
+  margin-top: 100px;
   margin-left: 100px;
   width: 50vw;
 }
@@ -91,8 +92,8 @@ h4 {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 211px;
-  height: 348.5px;
+  width: 316.5px;
+  height: 522.75px;
   background: #eee;
   border-radius: 10px 10px 60px 10px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
@@ -100,72 +101,72 @@ h4 {
     content: "";
     position: absolute;
     width: 100%;
-    height: 31px;
+    height: 46.5px;
     border-bottom: 4px solid #e0e0e0;
   }
   &:after {
     content: "";
     position: absolute;
     top: 0;
-    width: 167px;
-    height: 15.5px;
+    width: 250.5px;
+    height: 23.25px;
     border-left: 4px solid #e0e0e0;
     border-right: 4px solid #e0e0e0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
 .screen-container {
   position: relative;
-  top: 50px;
-  left: 20px;
-  width: 171px;
-  height: 136px;
-  margin-bottom: 29px;
+  top: 75px;
+  left: 30px;
+  width: 256.5px;
+  height: 204px;
+  margin-bottom: 44px;
   background-color: #777;
   border-radius: 13px 13px 50px 13px;
 }
 
 .screen {
   position: relative;
-  top: 15px;
+  top: 22.5px;
   margin-left: auto;
   margin-right: auto;
   background: #bdae58;
-  width: 112.5px;
-  height: 102.5px;
+  width: 168.75px;
+  height: 153.75px;
   box-shadow: inset 3px 3px rgba(0, 0, 0, 0.15);
 }
 
 .header {
   position: relative;
-  top: -15px;
+  top: -22.5px;
   width: 100%;
-  height: 7.5px;
-  padding-top: 5px;
+  height: 11.25px;
+  padding-top: 7.5px;
   box-sizing: border-box;
   text-align: right;
-  font-size: 5px;
+  font-size: 7.5px;
   font-family: sans-serif;
   color: #b3b3b3;
   &:before {
     content: "";
     position: absolute;
-    left: -21.5px;
-    top: 5px;
-    width: 45px;
-    height: 1.5px;
+    left: -32.25px;
+    top: 7.5px;
+    width: 67.5px;
+    height: 2.25px;
     background-color: #8b1d90;
     box-shadow: 0 6px 0 #283593;
   }
   &:after {
     content: "";
     position: absolute;
-    right: -23px;
-    top: 5px;
-    width: 19px;
-    height: 1.5px;
+    right: -34.5px;
+    top: 7.5px;
+    width: 28.9px;
+    height: 2.25px;
     background-color: #8b1d90;
     box-shadow: 0 6px 0 #283593;
   }
@@ -174,10 +175,10 @@ h4 {
 .power {
   content: "";
   position: absolute;
-  width: 5px;
-  height: 5px;
-  top: 50px;
-  left: 10px;
+  width: 7.5px;
+  height: 7.55px;
+  top: 75px;
+  left: 15px;
   border-radius: 100%;
   background-color: #b98181;
   transition: background-color 300ms linear;
@@ -185,9 +186,9 @@ h4 {
   &:before {
     content: "BATTERY";
     position: relative;
-    top: 9px;
-    left: -5px;
-    font-size: 4px;
+    top: 13.5px;
+    left: -7.5px;
+    font-size: 6px;
     font-family: sans-serif;
     color: #b3b3b3;
   }
@@ -202,9 +203,9 @@ h4 {
   display: inline-block;
   position: relative;
   top: -14px;
-  left: 14%;
+  left: 15%;
   color: #8a891f;
-  font-size: 16px;
+  font-size: 22px;
   font-family: "Pretendo", sans-serif;
   z-index: 10;
   &.end {
@@ -229,53 +230,53 @@ h4 {
 .controls-container {
   display: block;
   position: relative;
-  margin-top: 45px;
+  margin-top: 67.5px;
 }
 
 .btn-direction {
   position: relative;
-  margin-left: 20px;
-  top: 30px;
+  margin-left: 30px;
+  top: 45px;
   &::before {
     content: "";
     position: absolute;
     z-index: 1;
-    top: 15px;
-    left: 15px;
-    width: 15px;
-    height: 15px;
+    top: 22.5px;
+    left: 22.5px;
+    width: 22.5px;
+    height: 22.5px;
     background-color: #353535;
     border-radius: 100%;
   }
   .vertical,
   .horizontal {
     position: absolute;
-    left: 15px;
-    width: 15px;
-    height: 45px;
+    left: 22.5px;
+    width: 22.5px;
+    height: 67.5px;
     background: #444;
     border-radius: 5px;
     &:before {
       content: "";
       position: relative;
-      top: 50px;
-      left: 4px;
+      top: 75px;
+      left: 6px;
       width: 0;
       height: 0;
-      border-left: 3.5px solid transparent;
-      border-right: 3.5px solid transparent;
-      border-top: 3.5px solid #dedede;
+      border-left: 5.25px solid transparent;
+      border-right: 5.25px solid transparent;
+      border-top: 5.25px solid #dedede;
     }
     &:after {
       content: "";
       position: relative;
-      top: -23px;
-      left: -2.8px;
+      top: -24.5px;
+      left: -4px;
       width: 0;
       height: 0;
-      border-left: 3.5px solid transparent;
-      border-right: 3.5px solid transparent;
-      border-bottom: 3.5px solid #dedede;
+      border-left: 5.25px solid transparent;
+      border-right: 5.25px solid transparent;
+      border-bottom: 5.25px solid #dedede;
     }
   }
   .horizontal {
@@ -285,22 +286,22 @@ h4 {
 
 .btn-AB {
   position: absolute;
-  top: 36px;
-  left: 126px;
-  width: 65px;
-  height: 30px;
+  top: 54px;
+  left: 189px;
+  width: 97.5px;
+  height: 45px;
   background: #dfdfdf;
   border-radius: 30px;
   -webkit-transform: rotate(-25deg);
   &:after {
     content: "";
     position: absolute;
-    top: 4px;
-    right: 4.5px;
-    width: 22px;
-    height: 22px;
+    top: 6px;
+    right: 6.75px;
+    width: 33px;
+    height: 33px;
     background: #a93671;
-    box-shadow: 34px 0 #a93671;
+    box-shadow: 51px 0 #a93671;
     border-radius: 100%;
     -webkit-transform: rotate(180deg);
   }
@@ -308,93 +309,93 @@ h4 {
 
 .btn-start-select {
   position: absolute;
-  top: 102.5px;
-  left: 70px;
-  height: 6px;
-  width: 30px;
+  top: 153.75px;
+  left: 105px;
+  height: 9px;
+  width: 45px;
   background: #999;
-  border-radius: 5px;
+  border-radius: 7.5px;
   -webkit-transform: rotate(-25deg);
-  box-shadow: 28.5px 13.5px #999, 0 0 0 2.5px #dfdfdf, 28.5px 13.5px 0 2.5px #dfdfdf;
+  box-shadow: 42.75px 20.25px #999, 0 0 0 3.75px #dfdfdf, 42.75px 20.25px 0 3.75px #dfdfdf;
 }
 
 .speakers {
   content: "";
   position: relative;
-  height: 35px;
-  width: 4px;
-  top: 120px;
-  left: 140px;
+  height: 52.5px;
+  width: 6px;
+  top: 180px;
+  left: 210px;
   background: #ddd;
-  border-radius: 4px;
+  border-radius: 6px;
   -webkit-transform: rotate(-25deg);
-  box-shadow: 10px 0 #ddd, 20px 0 #ddd, 30px 0 #ddd, 40px 0 #ddd, 50px 0 #ddd;
+  box-shadow: 15px 0 #ddd, 30px 0 #ddd, 45px 0 #ddd, 60px 0 #ddd, 75px 0 #ddd;
 }
 
 .phones {
   position: absolute;
-  bottom: 2px;
+  bottom: 3px;
   left: 50%;
-  padding: 3px 5px;
+  padding: 4.5px 7.5px;
   transform: translateX(-50%);
   color: #dadada;
   background-color: #e8e8e8;
-  font-size: 4px;
+  font-size: 6px;
   font-family: sans-serif;
   text-transform: uppercase;
-  border-radius: 15px;
+  border-radius: 22.5px;
   &:before {
     content: "";
     position: absolute;
-    width: 7.5px;
-    height: 2.5px;
-    bottom: -2px;
+    width: 11.25px;
+    height: 3.75px;
+    bottom: -3px;
     background-color: #e8e8e8;
-    left: 4.5px;
+    left: 6.75px;
   }
   &:after {
     content: "";
     position: absolute;
-    width: 1.5px;
-    height: 2.5px;
-    bottom: -2px;
-    left: 6px;
+    width: 2.25px;
+    height: 3.75px;
+    bottom: -3px;
+    left: 9px;
     background-color: #ddd;
-    box-shadow: 5px 0 #ddd;
-    border-radius: 4px 4px 0 0;
+    box-shadow: 7.5px 0 #ddd;
+    border-radius: 6px 6px 0 0;
   }
 }
 
 .on-off {
   position: absolute;
-  top: 1px;
+  top: 2.25px;
   left: 20%;
-  padding: 1.5px 2.5px;
+  padding: 2.25px 3.75px;
   transform: translateX(-50%);
   color: #dadada;
   background-color: #e8e8e8;
-  font-size: 4px;
+  font-size: 6px;
   font-family: sans-serif;
   text-transform: uppercase;
-  border-radius: 15px;
+  border-radius: 22.5px;
   &:before {
     content: "";
     position: absolute;
-    width: 7.5px;
-    height: 2.5px;
-    top: -1px;
+    width: 11.25px;
+    height: 3.75px;
+    top: -1.5px;
     background-color: #e8e8e8;
-    left: 3px;
+    left: 4.5px;
   }
   &:after {
     content: "";
     position: absolute;
-    width: 1.5px;
-    height: 2.5px;
-    top: -1px;
-    left: 4.5px;
+    width: 2.25px;
+    height: 3.75px;
+    top: -1.5px;
+    left: 6.75px;
     background-color: #ddd;
-    box-shadow: 5px 0 #ddd;
+    box-shadow: 7.5px 0 #ddd;
     border-radius: 0 0 3px 3px;
   }
 }
@@ -464,7 +465,7 @@ h4 {
   color: #777;
   font-size: 18px;
   font-weight: 500;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 .cart-img {
