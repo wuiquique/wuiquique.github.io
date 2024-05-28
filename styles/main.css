@@ -210,7 +210,7 @@ h4 {
   z-index: 10;
   &.end {
     opacity: 1;
-    top: 25px;
+    top: 37.5px;
     transition: top 3s linear;
   }
   .text-container {
