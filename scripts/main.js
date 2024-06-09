@@ -48,3 +48,8 @@ const App = {
 window.addEventListener("load", (event) => {
   App.init();
 });
+
+document.getElementById('scroll-link').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+});

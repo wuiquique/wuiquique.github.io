@@ -7,6 +7,11 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/gameboy.css" />
+    <link rel="stylesheet" href="./styles/carousel.css" />
+    <link rel="stylesheet" href="./styles/cartridge.css" />
+    <link rel="stylesheet" href="./styles/skills.css" />
 
     <!-- SCRIPT -->
     <script src="./scripts/main.js"></script>
@@ -18,15 +23,18 @@
       href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   </head>
   <body>
     <audio src="./audio/Gameboy Sound.mp3" autoplay></audio>
     <div class="nav-bar">
-      <ul>
-        <li><a target="_blank" href="#">Skills</a></li>
-        <li><a target="_blank" href="#">Projects</a></li>
-        <li><a target="_blank" href="#">About me</a></li>
-        <li><a target="_blank" href="#">Contact</a></li>
+      <ul class="nav-cont">
+        <li class="nav-item"><a class="nav-click" target="_blank" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-click" target="_blank" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-click" target="_blank" href="#">About me</a></li>
+        <li class="nav-item"><a class="nav-click" target="_blank" href="#">Contact</a></li>
       </ul>
     </div>
     <div class="first-row">
@@ -66,52 +74,103 @@
         </div>
       </div>
     </div>
-    <div class="skills-container">
-      <!-- HTML -->
-      <div class="cart-cont">
-        <div class="up-right"></div>
-        <div class="cart-line-left"></div>
-        <div class="cart-line-right"></div>
-        <div class="cart-name">HTML</div>
-        <div class="cart-img">
-          <img src="images/html-logo.png" width="120" />
-        </div>
-        <div class="cart-arrow"></div>
+    <!-- <h2>Skills</h2> -->
+    <!-- Skills -->
+    <div class="skills-container" id="skills">
+      <div class="skills-screen">
+        <div class="skills-header">SKILLS</div>
+        <div class="skills-screen-cont">
+          <div class="character-container">
+            <div class="character"></div>
+          </div>
       </div>
-      <!-- CSS -->
-      <div class="cart-cont">
-        <div class="up-right"></div>
-        <div class="cart-line-left"></div>
-        <div class="cart-line-right"></div>
-        <div class="cart-name">CSS</div>
-        <div class="cart-img">
-          <img src="images/css-logo.png" width="90"/>
-        </div>
-        <div class="cart-arrow"></div>
       </div>
-      <!-- JS -->
-      <div class="cart-cont">
-        <div class="up-right"></div>
-        <div class="cart-line-left"></div>
-        <div class="cart-line-right"></div>
-        <div class="cart-name">JS</div>
-        <div class="cart-img">
-          <img src="images/js-logo.png" width="100"/>
-        </div>
-        <div class="cart-arrow"></div>
-      </div>
-      <!-- React -->
-      <div class="cart-cont">
-        <div class="up-right"></div>
-        <div class="cart-line-left"></div>
-        <div class="cart-line-right"></div>
-        <div class="cart-name">React</div>
-        <div class="cart-img">
-          <img src="images/react-logo.png" width="100"/>
-        </div>
-        <div class="cart-arrow"></div>
-      </div>
-
     </div>
+    <!-- Carousel -->
+    <div class="carousel-container">
+      <input type="radio" name="position" checked />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <!-- <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" />
+      <input type="radio" name="position" /> -->
+
+      <!-- <buton class="carousel-btn">
+        <span class="material-symbols-outlined">
+          arrow_back_ios
+        </span>
+      </buton>
+      <buton class="carousel-btn">
+        <span class="material-symbols-outlined">
+          arrow_forward_ios
+        </span>
+      </buton> -->
+
+      <div class="carousel">
+        <div class="item">
+          <div class="cart-cont">
+            <div class="up-right"></div>
+            <div class="cart-line-left"></div>
+            <div class="cart-line-right"></div>
+            <div class="cart-name">HTML</div>
+            <div class="cart-img">
+              <img src="images/html-logo.png" width="120" />
+            </div>
+            <div class="cart-arrow"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cart-cont">
+            <div class="up-right"></div>
+            <div class="cart-line-left"></div>
+            <div class="cart-line-right"></div>
+            <div class="cart-name">CSS</div>
+            <div class="cart-img">
+              <img src="images/css-logo.png" width="90"/>
+            </div>
+            <div class="cart-arrow"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cart-cont">
+            <div class="up-right"></div>
+            <div class="cart-line-left"></div>
+            <div class="cart-line-right"></div>
+            <div class="cart-name">JS</div>
+            <div class="cart-img">
+              <img src="images/js-logo.png" width="100"/>
+            </div>
+            <div class="cart-arrow"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cart-cont">
+            <div class="up-right"></div>
+            <div class="cart-line-left"></div>
+            <div class="cart-line-right"></div>
+            <div class="cart-name">React</div>
+            <div class="cart-img">
+              <img src="images/react-logo.png" width="100"/>
+            </div>
+            <div class="cart-arrow"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cart-cont">
+            <div class="up-right"></div>
+            <div class="cart-line-left"></div>
+            <div class="cart-line-right"></div>
+            <div class="cart-name">Svelte</div>
+            <div class="cart-img">
+              <img src="images/svelte-logo.png" width="90"/>
+            </div>
+            <div class="cart-arrow"></div>
+          </div>
+        </div>
+      <div>
+    </div>
+  </div>
   </body>
 </html>
